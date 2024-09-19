@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tui - boekingsformulier</title>
+</head>
+<body>
+    <h1>boekingsformulier</h1>
+
+    <form action="">
+        <label for="firstname">Voornaam</label>
+        <input type="text" name="firstname" pattern="A-Za-z">
+
+        <br><br>
+
+        <label for="surname">Achternaam</label>
+        <input type="text" name="surname" pattern="A-Za-z">
+
+        <br><br>
+
+        <label for="gender">Geslacht</label>
+        <input type="radio" name="gender" checked value="man"> Man
+        <input type="radio" name="gender" value="Vrouw"> Vrouw
+
+        <br><br>
+
+        <label for="streetnamehuisnumber">Straatnaam en huisnummer</label>
+        <input type="text" name="streetnamehuisnumber">
+        <input type="text" name="streetnamehuisnumber">
+
+        <br><br>
+
+        <label for="postcode">Postcode</label>
+        <input type="text" name="postcode">
+
+        <br><br>
+
+        <label for="country">Land</label>
+        <input type="text" name="country">
+
+        <br><br>
+
+        <label for="bsn">BSN</label>
+        <input type="text" name="bsn" min="9">
+
+        <br><br>
+
+        <label for="countries">Landen</label>
+        <select name="countries" id="">
+            <option value="nederland">nederland</option>
+            <option value="belgia">belgia</option>
+            <option value="rusland">rusland</option>
+            <option value="spanje">spanje</option>
+            <option value="dubai">dubai</option>
+        </select>
+
+        <br><br>
+
+        <label for="dateofdeparture">Datum van vertrek</label>
+        <input type="date" name="dateofdeparture" min="2024-09-18">
+
+        <br><br>
+
+        <label for="dateofreturn">Datum van terugkomst</label>
+        <input type="date" name="dateofreturn" min="2024-09-19">
+
+        <br><br>
+
+        <label for="numberofpassangers">Aantal reisgenoten</label>
+        <input type="number" name="numberofpassangers" min="1" max="4">
+
+        <br><br>
+
+        
+        <input type="submit" value="boek nu">
+
+        <br><br>
+
+        <label for="E-mail">E-mail</label>
+        <input type="email" name="E-mail">
+
+        <br><br>
+
+        <label for="password">Wachtwoord</label>
+        <input type="password" name="password">
+    
+</body>
+</html>
