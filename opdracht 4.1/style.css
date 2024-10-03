@@ -1,6 +1,6 @@
 h1 {
     font-size: 24px;
-    color: blue;
+    color: rgb(255, 0, 0);
     font-weight: bold;
     font-style: italic;
 }
@@ -23,9 +23,29 @@ p {
 
 .p1 {
     font-weight: bold;
+    color: rgb(255, 0, 0);
 }
 
 a {
     color: #8A2BE2;
     text-decoration: none;
+}
+
+header {
+    height: 25vh;
+    width: 100%;
+    background-position: center;
+    background-image:url(img/Undertale.png);
+    background-size: cover;
+    background-position: center;
+}
+
+img{
+    width: 50%;
+}
+
+article {
+    border: 1px solid black;
+    border-radius: 15px;
+    border-left-width: 10px;
 }
