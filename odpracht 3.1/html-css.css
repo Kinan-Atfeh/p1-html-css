@@ -46,12 +46,51 @@
     font-size: 300%;
   }
 
-  .htmlimg1 {
-    height: 300px;
+  .footer-h2 {
+    text-align: center;
+    font-size: 300%;
+    top: 36vh;
+    position: relative;
+    background:#00a8c7;
+    height: 80px;
+    color: white;
+   
   }
 
-  h2 {
-    text-align: center;
-    font-size: 0%;
-  }
+ .htmlimg1 {
+  position: absolute;
+  width: 30%;
+  left: 45px;
+  top: 200px;
+  z-index: -2;
+  height: 300px;
+ }
+
+ #p-html {
+  position: absolute;
+  left: 900px;
+  width: 25vw;
+  font-size:large;
+ }
+
+ .h2__html {
+  color: black;
+  height: 40px;
+  font-size: 200%;
+  text-align: center;
+  position: relative;
+  left: 15.5vw;
+ }
+ 
+
+ mark.blue {
+  color: blue;
+  background: none;
+ }
+
+ mark.red {
+  color: red;
+  background: none;
+ }
+
 
