@@ -43,8 +43,25 @@ nav img {
 }
 
 h1 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
   color: white;
   font-size: 500%;
   text-align: center;
+  transform: translate(-50%,-50%);
+  
 }
 
+
+.goldman-regular {
+  font-family: "Goldman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.goldman-bold {
+  font-family: "Goldman", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}

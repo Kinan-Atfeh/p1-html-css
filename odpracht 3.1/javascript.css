@@ -39,6 +39,77 @@
   nav img {
     width: 5vw;
   }
+
+  #javascript-img {
+    position: absolute;
+    right: 20%;
+    top: 35%;
+    z-index: -2;
+    height: 240px;
+   }
   
+
+  #p-javascript {
+    position: absolute;
+    left: 20%;
+    top: 35%;
+    width: 35vw;
+    font-size:large;
+    color: white;
+   }
   
+
+   #h2-javascript {
+    color: white;
+    height: 40px;
+    font-size: 200%;
+    text-align: center;
+    position: absolute;
+    left: 20%;
+    top: 30%;
+   }
   
+
+   footer {
+    color: aliceblue;
+    background-color: #00a8c7;
+    font-size: 20px;
+    padding: 50px;
+    text-align: center;
+    position: absolute;
+    top: 85%;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+
+  }
+
+  .yellow {
+    color: yellow;
+    background: none;
+  }
+
+  body{
+    background-color: black;
+  }
+
+  h1 {
+    position: absolute;
+    top: 20%;
+    right: 40%;
+    font-size: 400%;
+    color: white;
+    
+  }
+
+  .goldman-regular {
+    font-family: "Goldman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .goldman-bold {
+    font-family: "Goldman", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
