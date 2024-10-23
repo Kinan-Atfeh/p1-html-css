@@ -54,7 +54,7 @@
     font-style: normal;
   }
 
-  h1 {
+  #php-h1 {
     position: absolute;
     font-size: 400%;
     right: 43%;

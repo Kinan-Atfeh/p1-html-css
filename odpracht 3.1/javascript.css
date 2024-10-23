@@ -89,11 +89,11 @@
     background: none;
   }
 
-  body{
+  #javascript-body{
     background-color: black;
   }
 
-  h1 {
+  #h1-javascript {
     position: absolute;
     top: 20%;
     right: 40%;

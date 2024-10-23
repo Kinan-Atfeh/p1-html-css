@@ -8,12 +8,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="contact.css" />
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
     <title>Opdracht 3</title>
+    
   </head>
-  <body>
+  <body class="contact-html" >
     <nav>
       <img src="./img/hacker.png" id="logo" />
       <ul>
@@ -26,32 +26,34 @@
     </nav>
 
     <h1 id="H1-contact">contact</h1>
-    <br><br><br>
+    
+
+<div id="div-contact">
 
 
     <form id="Naam" action="">
       <label for="Email" class="formStyle">Naam</label> <br><br>
-      <input type="text" name="email" size="93">|
+      <input type="text" name="email"class="contact-input">
     </form>
-      <br><br><br>
-    <form action="">
+      
+
+
+    <form id="Email" action="">
       <label for="Email" class="formStyle">E-mail</label> <br><br>
-      <input type="text" name="bericht" size="93">
+      <input type="text" name="bericht" class="contact-input">
     </form>
-      <br><br><br>
+
+
+      
     <form action="">
-      <label for="bericht" class="formStyle">bericht</label> <br><br>
-      <input type="text" name="bericht" size="93">
+      <label for="bericht" class="formStyle">Bericht</label> <br><br>
+      <input type="text" name="bericht" id="bericht" class="contact-input">
     </form>
-      <br><br><br><br>
+   
+</div>
+      
 
-        
-        <br>
-
-        <input type="submit" name="" id="" size="93">
-        <br>
-    
- 
+      <input id="verstuur-ber" type="submit">
 
     <footer>Copyright Techniek College Rotterdam</footer>
   </body>
